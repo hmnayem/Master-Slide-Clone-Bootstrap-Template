@@ -77,3 +77,15 @@
         }
     }
 }
+
+#content-carousel {
+    position: absolute;
+    top: 100%;
+    width: 100% !important;
+
+    .carousel-item {
+        width: 100%;
+        height: 400px;
+        background: #dddddd;
+    }
+}
