@@ -1,27 +1,128 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Master Slide</title>
 
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!--
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="bower_components/animate.css/animate.css">
 
+    -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="apps/css/app.css">
-</head>
-<body>
-  <div class="container-fluid">
-      <div class="jumbotron">
-          <h1>Master Slide <small>Best Slide Plugin Ever</small></h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta officia ad quo similique nemo veritatis molestias eius distinctio quibusdam architecto neque fuga in rem dicta temporibus voluptatibus, quidem aperiam repellat. Fugiat, ipsam. Reiciendis aut voluptatibus aliquid odit quis error deleniti voluptate sit perferendis eius? Totam molestiae officia nobis soluta laborum magni cum voluptate ea. Officia rerum veniam voluptatibus debitis quidem ratione, ut voluptate maiores placeat optio hic, dolore laudantium alias, officiis eveniet voluptates nam eaque inventore labore. Necessitatibus explicabo, hic soluta voluptatum consectetur ipsa sapiente non doloremque rem ratione blanditiis labore eos dolores dolore placeat voluptas inventore nostrum. Praesentium, nesciunt.</p>
-      </div>
-  </div>
 
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/wow/dist/wow.js"></script>
+    <style>
+        @media (max-width: 767px) {
+            .navbar,
+            .container {
+                width: 100%;
+            }
+        }
+
+        html,
+        body {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Navigation Section Starts Here -->
+
+    <div id="top-navbar">
+        <div class="container">
+            <nav class="navbar navbar-toggleable-sm navbar-light">
+                <div class="navbar-header">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">
+                        <h2>MASTER <br><span>SLIDE</span></h2>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto">
+                        <a href="#" class="navbar-item nav-link">Home</a>
+                        <a href="#" class="navbar-item nav-link">Wordpress Pro</a>
+                        <a href="#" class="navbar-item nav-link">JQuery Version</a>
+                        <a href="#" class="navbar-item nav-link">Wordpress Free</a>
+                        <a href="#" class="navbar-item nav-link">Support</a>
+                        <a href="#" class="navbar-item nav-link">Download</a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Carousel Section -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+            </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="d-block img-fluid" src="apps/img/home-slide31.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="apps/img/home-slide22.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="apps/img/home-slide11.jpg" alt="Third slide">
+            </div>
+        </div>
+    </div>
+
+    <div id="after-slider">
+    <div class="container-fluid" style="position: static">
+        <div class="row">
+            <div id="content-top">
+                 <h1>The Master of Web Sliders</h1>
+                 <p class="lead">Everything you have ever wanted in an animated content and image slider, all packaged up into one awesome plugin! Build touch
+                friendly, cross-browser and animated content sliders with Master Slider, available now for WordPress and
+                jQuery. Learn how this feature rich plugin is just waiting to amp up your website.</p>
+                <button type="button" class="btn btn-primary btn-lg">Get Master Slide</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!--
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/wow/dist/wow.js"></script>
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+    <script src="apps/js/app.js"></script>
 </body>
+
 </html>
