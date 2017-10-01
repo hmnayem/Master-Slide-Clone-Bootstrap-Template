@@ -1,0 +1,23 @@
+{
+  "name": "master-slide-clone-bootstrap-template",
+  "description": "This is a clone template of Master slide.",
+  "main": "index.js",
+  "authors": [
+    "HM Nayem <hm.nayem.95@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hmnayem/Master-Slide-Clone-Bootstrap-Template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "animate.css": "^3.5.2",
+    "wow": "wow.js#^1.1.2",
+    "font-awesome": "^4.7.0"
+  }
+}
